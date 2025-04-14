@@ -1,2 +1,2 @@
-# 2025-EIWA-Championship_Cypress-Tests
+# 2025-EIWA-Championship-Cypress-Tests
 Validation and Functional Test
