@@ -1,5 +1,5 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "teams": ["Lehigh", "Army West Point", "Cornell"],
+  "weights": ["125 lbs", "133 lbs", "141 lbs"],
+  "rounds": ["Quarterfinals", "Semifinals", "Finals"]
 }
