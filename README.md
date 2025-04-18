@@ -20,7 +20,7 @@ The objective of this assignment is to automate User Interface validation and fu
 
 ## Motivation for the Project
 
-I was motivated to work on the assignment having completed similar task on another automation tool (Playwright) for my company. I hope to continue on CI/CD for this project.
+I was motivated to work on the assignment having completed similar task on another automation tool (Playwright) for my company. I plan to integrate CI/CD for this project by adding GitHub Actions configuration (.github-workflows-cypress.yml) and add code snippets for HTML mockup with data-testid attributes(public-index.html).
 
 
 ## Installation and Usage
@@ -33,7 +33,14 @@ Steps:
 - npm init -y
 - Json file automatically created
 - npm install cypress --save-dev. Cypress package successfully installed
-- Run test using npx cypress open
+- npx serve . for creating a local website using a simple server
+- node server.js
+- npm install --save-dev start-server-and-test
+- Run test using npx cypress open. 
+
+Notes
+
+Tests are written and structured correctly, but the /filters route failed due to dev server not running at time of test. Please ensure local server is running on the specified port or update baseUrl in cypress.config.js to match.
 
 ## Tested Features
 - Team, Weight, and Round filters
@@ -47,6 +54,8 @@ The following technologies were used for the application:
 - VS Code
 - Npm
 - Zsh Bash
+- Express.js
+- Html
 
 
 ## Credits 
@@ -58,4 +67,3 @@ The following technologies were used for the application:
 ![License](https://img.shields.io/badge/License-MIT-9cf.svg)
 
 
-**screenshots:** 
